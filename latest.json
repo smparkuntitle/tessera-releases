@@ -1,0 +1,15 @@
+{
+ "version": "0.8.0-alpha.14",
+ "notes": "Tessera 0.8.0-alpha.14 사전 공개판ㅍ",
+ "pub_date": "2026-10-23T12:55:56Z",
+ "platforms": {
+  "darwin-aarch64": {
+   "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVROGtiVWtlZFl6Z3FxSXM0YkdrR0g4WjlYL2dzWWpwZm9tWXQrSGxnb09nZkJYb09zWHRRK3puL0Z6dHQ0MmpUY0FaSXN5cWNtaVZVQUZLYjA3djgwaVZDa29iQmVYdXdBPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkyNzQ0Mjk4CWZpbGU6VGVzc2VyYS0wLjguMC1hbHBoYS4xNC1hcm02NC5hcHAudGFyLmd6CjlJTVB6MmordkJ2Mm1HMmkrZitBU0VKQWZXbkVOVXFQQ29oMUx0MEFlUzBpd1NIVDJkM0lpeTFqa2xGV0svSHR4djJjY1dYb0hpSVgyR1Mxek9IOEFnPT0K",
+   "url": "https://github.com/smparkuntitle/tessera-releases/releases/download/v0.8.0-alpha.14/Tessera-0.8.0-alpha.14-arm64.app.tar.gz"
+  },
+  "windows-x86_64": {
+   "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVROGtiVWtlZFl6Z2lWbXJOeDFkOTd2MFg2SGV3Y2lQUkIzcitaZmZGRzFZSTBJQnkvWENQT3RRVWZZTTQxUnFySW9GSmJFVXlLWTBJSWxWN3p6VWJGTVhINzlORHNCRUFBPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkyNzU1MDkwCWZpbGU6VGVzc2VyYV8wLjguMC1hbHBoYS4xNF94NjQtc2V0dXAuZXhlCXZlcnNpb246MC44LjAtYWxwaGEuMTQKQmtZWTRzSkdtNFVKbGZwR1VvVGJTUm1NTkVHbnJzSllhY1hWaTVYcDZkYm8yRXMrOTJtTGYxdTE5c3JvZlJSVFBtbDRVL0NFY3JXQ2hVTTNvTStJQkE9PQo=",
+   "url": "https://github.com/smparkuntitle/tessera-releases/releases/download/v0.8.0-alpha.14/Tessera_0.8.0-alpha.14_x64-setup.exe"
+  }
+ }
+}
