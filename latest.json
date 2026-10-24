@@ -1,15 +1,15 @@
 {
- "version": "0.8.0-alpha.14",
- "notes": "Tessera 0.8.0-alpha.14 사전 공개판",
- "pub_date": "2026-10-23T12:55:56Z",
+ "version": "0.8.15",
+ "notes": "Tessera 0.8.15",
+ "pub_date": "2026-10-24T00:52:01Z",
  "platforms": {
   "darwin-aarch64": {
-   "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVROGtiVWtlZFl6Z3FxSXM0YkdrR0g4WjlYL2dzWWpwZm9tWXQrSGxnb09nZkJYb09zWHRRK3puL0Z6dHQ0MmpUY0FaSXN5cWNtaVZVQUZLYjA3djgwaVZDa29iQmVYdXdBPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkyNzQ0Mjk4CWZpbGU6VGVzc2VyYS0wLjguMC1hbHBoYS4xNC1hcm02NC5hcHAudGFyLmd6CjlJTVB6MmordkJ2Mm1HMmkrZitBU0VKQWZXbkVOVXFQQ29oMUx0MEFlUzBpd1NIVDJkM0lpeTFqa2xGV0svSHR4djJjY1dYb0hpSVgyR1Mxek9IOEFnPT0K",
-   "url": "https://github.com/smparkuntitle/tessera-releases/releases/download/v0.8.0-alpha.14/Tessera-0.8.0-alpha.14-arm64.app.tar.gz"
+   "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVROGtiVWtlZFl6Z241a1NSZVArRXVVZ0dzOHQ5enN1RVhjS3g5VUdCdUJ1YWJtazkrblNBOUwzMDJvcGY1N2k3cFZPbFlLNEdBa1VtQmZiM2tnT3BFbWlhTVhOV2daclFVPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkyNzcxMjg0CWZpbGU6VGVzc2VyYS0wLjguMTUtYXJtNjQuYXBwLnRhci5negp0emxvRy9sQmhoT3E2UE5XcmNqMzFTelRsVjVXRnNvb0U2Wk9wOENCajB5cUpGcEVzaG95ZFdIK21jOUhLbmlENlgxS3ZjU05JalU5SFJlSVorVDlCQT09Cg==",
+   "url": "https://github.com/smparkuntitle/tessera-releases/releases/download/v0.8.15/Tessera-0.8.15-arm64.app.tar.gz"
   },
   "windows-x86_64": {
-   "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVROGtiVWtlZFl6Z2lWbXJOeDFkOTd2MFg2SGV3Y2lQUkIzcitaZmZGRzFZSTBJQnkvWENQT3RRVWZZTTQxUnFySW9GSmJFVXlLWTBJSWxWN3p6VWJGTVhINzlORHNCRUFBPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkyNzU1MDkwCWZpbGU6VGVzc2VyYV8wLjguMC1hbHBoYS4xNF94NjQtc2V0dXAuZXhlCXZlcnNpb246MC44LjAtYWxwaGEuMTQKQmtZWTRzSkdtNFVKbGZwR1VvVGJTUm1NTkVHbnJzSllhY1hWaTVYcDZkYm8yRXMrOTJtTGYxdTE5c3JvZlJSVFBtbDRVL0NFY3JXQ2hVTTNvTStJQkE9PQo=",
-   "url": "https://github.com/smparkuntitle/tessera-releases/releases/download/v0.8.0-alpha.14/Tessera_0.8.0-alpha.14_x64-setup.exe"
+   "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVROGtiVWtlZFl6Z2tVWjZ2WTZmMEFOak4zNDBpUWU1azNyNkZRdU9BYW5qSERqLy91NG5iSDdUYllqNG9pWmgzeEc3RWJQN3V0b0ZqWWNheFRRakpVSWxac3lPZ2VtendzPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkyNzc2OTMzCWZpbGU6VGVzc2VyYV8wLjguMTVfeDY0LXNldHVwLmV4ZQl2ZXJzaW9uOjAuOC4xNQp6anNiL3dRNDJXU2RDdXl2V2ZJQUw3YUdRd1NMNXVlcmZuc3k5S3ZoVmNpWmlJc3BXYW1saCtjWTNoSDRwRXp4QVBVa3NubmllZmtOU2E4RUdmR0dCdz09Cg==",
+   "url": "https://github.com/smparkuntitle/tessera-releases/releases/download/v0.8.15/Tessera_0.8.15_x64-setup.exe"
   }
  }
 }
