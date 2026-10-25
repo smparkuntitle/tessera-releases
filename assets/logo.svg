@@ -1,0 +1,43 @@
+<svg width="512" height="512" viewBox="0 0 512 512" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="512" y2="512" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#161D26"/>
+      <stop offset="1" stop-color="#0C1116"/>
+    </linearGradient>
+    <linearGradient id="jade" x1="284" y1="92" x2="420" y2="228" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#7DEBD6"/>
+      <stop offset="1" stop-color="#2E9C8B"/>
+    </linearGradient>
+    <radialGradient id="glow" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse"
+      gradientTransform="translate(352 160) rotate(90) scale(190)">
+      <stop offset="0" stop-color="#5FD4C0" stop-opacity="0.28"/>
+      <stop offset="1" stop-color="#5FD4C0" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="topline" x1="256" y1="0" x2="256" y2="90" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#FFFFFF" stop-opacity="0.07"/>
+      <stop offset="1" stop-color="#FFFFFF" stop-opacity="0"/>
+    </linearGradient>
+    <clipPath id="tile"><rect width="512" height="512" rx="114"/></clipPath>
+  </defs>
+  <!-- 모든 그림을 둥근 배경 안으로 자른다(S40 — 빛·윗줄이 모서리 밖 투명 영역에 번지던 것) -->
+  <g clip-path="url(#tile)">
+
+  <!-- 배경 -->
+  <rect width="512" height="512" rx="114" fill="url(#bg)"/>
+  <rect x="1.5" y="1.5" width="509" height="509" rx="112.5" stroke="#FFFFFF" stroke-opacity="0.05" stroke-width="3"/>
+  <rect width="512" height="90" rx="90" fill="url(#topline)"/>
+
+  <!-- 점등 셀의 은은한 빛 -->
+  <circle cx="352" cy="160" r="190" fill="url(#glow)"/>
+
+  <!-- 조용한 타일 3장 -->
+  <rect x="110" y="110" width="132" height="132" rx="30" fill="#1D2630" stroke="#2B3642" stroke-width="3"/>
+  <rect x="110" y="270" width="132" height="132" rx="30" fill="#1D2630" stroke="#2B3642" stroke-width="3"/>
+  <rect x="270" y="270" width="132" height="132" rx="30" fill="#1D2630" stroke="#2B3642" stroke-width="3"/>
+
+  <!-- 빛나는 셀 (시그니처): 살짝 이탈해 점등 -->
+  <rect x="284" y="92" width="136" height="136" rx="30" fill="url(#jade)"/>
+  <rect x="284" y="92" width="136" height="136" rx="30" stroke="#8CF2DF" stroke-opacity="0.55" stroke-width="2.5"/>
+  <rect x="292" y="99" width="120" height="52" rx="24" fill="#FFFFFF" fill-opacity="0.14"/>
+  </g>
+</svg>
