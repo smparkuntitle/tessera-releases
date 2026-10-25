@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="320" height="68" viewBox="0 0 320 68" role="img" aria-label="macOS용 내려받기 — Apple Silicon (M1 이상) · .dmg">
+  <!-- Tessera 내려받기 단추(BRAND.md: accent-solid 면 + on-accent 전경, 라운드 10px, Pretendard) -->
+  <rect x="0.75" y="0.75" width="318.5" height="66.5" rx="10" fill="#16695C" stroke="#16695C" stroke-width="1.5"/>
+  <g transform="translate(24 20)" fill="none" stroke="#FFFFFF" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M14 2v18M7 13l7 7 7-7M4 26h20"/>
+  </g>
+  <g font-family="'Pretendard Variable', Pretendard, -apple-system, BlinkMacSystemFont, 'Apple SD Gothic Neo', 'Segoe UI', 'Malgun Gothic', 'Noto Sans KR', sans-serif" fill="#FFFFFF">
+    <text x="68" y="31" font-size="18" font-weight="700" letter-spacing="-0.3">macOS용 내려받기</text>
+    <text x="68" y="51" font-size="13" font-weight="500" fill-opacity="0.82" letter-spacing="-0.1">Apple Silicon (M1 이상) · .dmg</text>
+  </g>
+</svg>
