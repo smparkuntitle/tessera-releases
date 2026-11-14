@@ -1,15 +1,15 @@
 {
- "version": "0.9.2",
- "notes": "### 고친 점\n- **수동 커밋 탭이 연결이 끊긴 뒤 말없이 자동 커밋으로 바뀔 수 있던 문제를 고쳤습니다.** 수동 세션이나 연결 전체가 끊겼다가 다시 붙어도 탭은 수동 그대로이고, 다음 실행 때 수동 세션을 다시 엽니다(다시 열 수 없으면 까닭을 알리고 실행하지 않습니다). 끊길 때 커밋하지 않은 변경이 있었다면 서버에서 되돌려졌다고 알려 드립니다.\n- 다시 연결한 뒤 [자동 커밋]을 누르면 그대로 자동 커밋으로 바뀝니다(전에는 수동으로 되돌아갈 수 있었습니다).\n- **Oracle: 서버가 막 다시 켜진 직후처럼 '편집할 수 있는 결과인지'를 묻는 답이 늦게 오면, 첫 조회 결과가 '편집 불가'로 남던 문제를 고쳤습니다.** 늦은 답이 오면 같은 조회를 다시 가져와 편집을 켭니다. 다만 처음 실행이 10초를 넘었거나 표시 상한까지 행을 가져온 무거운 조회는 다시 보내지 않고 '편집하려면 다시 실행하세요'라고만 알려 드립니다.\n- 보내지 않은 표 편집이 남아 있는 탭을 다시 실행하면 먼저 물어봅니다([버리고 실행]/[취소]).\n- 0.9의 비밀번호 금고 파일이 없어진 경우에도 0.8.20 때의 키체인 비밀번호로 서버에 접속을 시도하지 않습니다(계정 잠금 횟수가 늘지 않습니다). 무엇이 문제인지 알림으로 안내합니다.\n- 글자를 친 직후 편집기 커서가 잠깐 보이지 않던 문제를 고쳤습니다.",
- "pub_date": "2026-11-13T20:11:40Z",
+ "version": "0.9.3",
+ "notes": "### 고친 점\n- **키보드로 탭을 바꾼 뒤(⌃Tab·⌘⇧]·⌘⇧[·⌘1~9) 다음 단축키가 먹지 않던 문제를 고쳤습니다.** 바꾼 탭의 편집기에 바로 초점이 가서 ⌘↵ 실행·⌘⌥C 커밋 같은 단축키가 마우스로 누르지 않아도 됩니다.\n- 문자셋을 정하지 않은 연결로 US7ASCII 데이터베이스에 붙으면 문자셋 선택 창이 뜹니다. 이 창이 떠 있을 때 ⌘↵(실행)를 누르면 그 키가 창의 답(권장 선택)으로 들어가 다시 연결되던 문제를 고쳤습니다. 이제 이 창은 Enter만 답으로 받습니다.\n- 연결이 끊기면 같은 내용이 탭 위 띠·결과 자리 알림·빨간 오류·상태줄에 겹쳐 나오던 것을 결과 자리의 끊김 알림 한 곳으로 모았습니다. 다시 연결한 뒤에는 지난 연결 오류가 남지 않습니다. 오류 번호도 한 가지로 맞췄습니다.\n- [수동] 커밋을 고른 탭의 연결이 끊긴 동안 도구모음·상태줄이 \"자동 커밋\"으로 보이던 것을 고쳤습니다(0.9.2에서도 다시 연결하면 수동 그대로였고, 끊긴 동안 실행은 수동 세션을 다시 연 뒤에만 됩니다). 이제 끊긴 동안에도 \"수동\"으로 보입니다.\n- Oracle thick 연결이 끊겼을 때 알림의 오류 번호가 \"ORA-00000\"으로 나오던 것을 실제 번호(예: ORA-03113)로 고쳤습니다.\n- Azure·Google Cloud·AWS 인증 도구로 로그인할 때, 도구가 띄운 다른 프로그램이 출력을 쥐고 있으면 토큰을 받고도 30초 동안 기다리다 실패하던 문제를 고쳤습니다.",
+ "pub_date": "2026-11-14T02:32:22Z",
  "platforms": {
   "darwin-aarch64": {
-   "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVROGtiVWtlZFl6Z3FDZG1nekUzeHh5NlJTQjloUlhXVXptYkdHK0JDYkt4czN1b3VJeGRwOW5iL3RKam9ydDdFc2pNQWtHRUEwRTVwb0pZSkVoVUlENWVyS1g2Y0F5RVFNPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzk0NTk1Mjk0CWZpbGU6VGVzc2VyYS0wLjkuMi1hcm02NC5hcHAudGFyLmd6CnBIb3JkTlY1Qm1qNVJ6dElRMFFNSVdIdUp0dU1jUTc2MFNhOUYxcUs0eXk5bHhXUTBieVBQM1dCckZEaWwrYmlyK2RTU3dHWlR4WDdyUEJZK0dFdEJ3PT0K",
-   "url": "https://github.com/smparkuntitle/tessera-releases/releases/download/v0.9.2/Tessera-0.9.2-arm64.app.tar.gz"
+   "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVROGtiVWtlZFl6Z2pFdys5Nkc3VDcxWStRSnNBaG9SQmFLMDgyMUdoanN0cFdITjFZTEVQTUZlalZ2Q3pGN2V5b3BsNFkrQnFhUEJqZXpBZnR0QWN1MnBBTmpiMm1tWkFFPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzk0NjA2OTA1CWZpbGU6VGVzc2VyYS0wLjkuMy1hcm02NC5hcHAudGFyLmd6CnNpNjdBdkZjZWdyNzNDaHpxdFF5c3FiVTFTd2Juc1pCZ0VvaU13UXBYYUh4TVlYRjVodmJMODlUbUFUWGVueW1EVjZCVVlMSGY3bElWWUt1Vno0Z0RBPT0K",
+   "url": "https://github.com/smparkuntitle/tessera-releases/releases/download/v0.9.3/Tessera-0.9.3-arm64.app.tar.gz"
   },
   "windows-x86_64": {
-   "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVROGtiVWtlZFl6Z2wrNjFzVE1ZclNodVJiQUg3dkFiSHk3elhkaXE4bk0vcmJOc0R4Mm1FcXRoTjlnSTg5bEJ0dVdhTS8vQXhTQXlNOC9PODhaVi9mc21TcVEwcmZydmdrPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzk0NTk5OTYyCWZpbGU6VGVzc2VyYS0wLjkuMi14NjQtc2V0dXAuZXhlCmgvU29Day93amRnSkVuWEFKRER6WHVWcUpwY1h1Z0pVaGc3bnlpQzRqbHFLcmw2cGVEeEZNbkV0RUw2dE4rZlpkc1g4cWovdCtsMHNLYUxMdkJYTkRRPT0K",
-   "url": "https://github.com/smparkuntitle/tessera-releases/releases/download/v0.9.2/Tessera-0.9.2-x64-setup.exe"
+   "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVROGtiVWtlZFl6Z2toT0wxT1RKV2U1bXJ2bTl3aTQrempmTUF1UEFKOEwrQzNaQXFobnFobGNiQ21McUMrclJpZWl4K0dmVncwQ3hJa2hRVVJiS2ZJdDM4RStOUHVQbVEwPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzk0NjEyMDY5CWZpbGU6VGVzc2VyYS0wLjkuMy14NjQtc2V0dXAuZXhlCkVmUnFZT2VPVHR1YmF4OVBGU2J0YUNySExoSzFLNXhZRDNQYmxkczZpd2RkdXdPdjBTZmZMTWxGeC81Vm4rWFA3b01IdFFEZ1hoaG0xaUFkTzNEQ0JBPT0K",
+   "url": "https://github.com/smparkuntitle/tessera-releases/releases/download/v0.9.3/Tessera-0.9.3-x64-setup.exe"
   }
  }
 }
